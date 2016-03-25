@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  background-color: gold;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  color: white;
+}
+
+#player1 {
+  margin: 30px;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+#player2 {
+  margin: 30px;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+
+}
