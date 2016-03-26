@@ -8,22 +8,30 @@ h1 {
 }
 
 .row {
+  position: fixed;
   color: white;
+  width: 1400px;
+  height: 200px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  left: 20px;
 }
 
 #player1 {
-  margin: 30px;
-  background-color: black;
-  width: 30px;
-  height: 30px;
-  text-align: center;
+  position: fixed;
+  top: 120px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  background: url(http://www.wiredforwords.com/IMAGES/FlyingBee.gif) 0 0 no-repeat;
 }
 
 #player2 {
-  margin: 30px;
-  background-color: red;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-
+  position: fixed;
+  top:200px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  background: url(http://www.wiredforwords.com/IMAGES/FlyingBee.gif) 0 0 no-repeat;
 }
