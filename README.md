@@ -1,18 +1,22 @@
-<h1>Project 0 - OOP Racing Game</h1>
+<h1>Project 0 - Racing Game</h1>
 
 Racing Game
-Short explanation of the project (1-2 sentences) - what is the goal of the project and/or main functionality?
 Create a two-player keypress racing game, where a winner is declared upon reaching the finish line. Game has to include reset button to reset player positions.
 
 Technologies Used
-- 
-
-What technologies did you use to develop this project? (bullet points)
+- JavaScript
+- jQuery
+- CSS (Bootstrap)
+- HTML
+- @font-face
+- favicon
 
 Existing Features
-
-What features does your racing game have? (bullet points)
+- Winner declared through alert
+- Reset button
+- Customized background, player icons, and font
 
 Planned Features
-
-What changes would you make to your project if you continue to work on it? (bullet points)
+- Scorekeeper
+- Allow customizable player icon
+- Allow customizable keystroke assignment for player
