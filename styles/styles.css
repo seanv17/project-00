@@ -29,20 +29,12 @@ body {
   background-color: green;
 }
 
-#goodTrack {
+#track {
   position: fixed;
   width: 1300px;
-  height: 100px;
+  height: 200px;
   left: 6%;
   top: 10%;
-}
-
-#badTrack {
-  position: fixed;
-  width: 1300px;
-  height: 100px;
-  left: 6%;
-  top: 30%;
 }
 
 #good {
@@ -55,7 +47,7 @@ body {
 
 #bad {
   position: absolute;
-  top: 190px;
+  top: 330px;
   left: 20px;
   width: 100px;
   height: 100px;

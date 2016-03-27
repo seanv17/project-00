@@ -1,40 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8">
+  <meta charset='UTF-8'>
 
   <!-- set viewport to device width to help make site responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
 
   <title>Gravity Falls: Mabel Racing Games</title>
 
   <!-- bootstrap css -->
-  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link type='text/css' rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 
   <!-- custom styles -->
-  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel='stylesheet' type='text/css' href='styles/styles.css'>
 
   <!-- jquery -->
   <!-- Note: using subresource integrity; see: https://en.wikipedia.org/wiki/Subresource_Integrity -->
-  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src='scripts/app.js'></script>
+  <script type='text/javascript' src='http://code.jquery.com/jquery-2.2.2.min.js' integrity='sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=' crossorigin='anonymous'></script>
+  <script type='text/javascript' src='scripts/app.js'></script>
+
+  <!-- handlebars -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
 
   <!-- favicon -->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon' />
 
 </head>
   <body>
-    <h1 class="gravity">Gravity Falls</h1><h2 class="gravity">Mabel Racing Game</h2>
-    <div class="container">
-      <div class="row" id="goodTrack">
-        <img src="images/giphy.gif" id="good">
-      </div>
-      <div class="row" id="badTrack">
-        <img src="images/giphy_2.gif" id="bad">
+    <h1 class='gravity'>Gravity Falls</h1><h2 class='gravity'>Mabel Racing Game</h2>
+    <div class='container'>
+      <div class='playerEntry'>
+        <script id='player-template' type='text/x-handlebars-template'>
+          {{#each players}}
+            <div class='row' id='track'>
+              <img src='{{playerURL}}' id='{{playerID}}'>
+            </div>
+          {{/each}}
+        </script>
       </div>
     </div>
-
-    <button type="button" class="btn">Reset</button>
+  <button type="button" class="btn">Reset</button>
 
 </body>
 </html>

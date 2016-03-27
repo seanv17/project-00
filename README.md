@@ -7,12 +7,16 @@ Technologies Used
 - JavaScript
 - jQuery
 - CSS (Bootstrap)
+- Handlebars
+- Object constructor
 - HTML
 - @font-face
 - favicon
 
 Existing Features
 - Winner declared through alert
+- Handlebars
+- Object constructor
 - Reset button
 - Customized background, player icons, and font
 
