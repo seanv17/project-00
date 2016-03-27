@@ -2,6 +2,20 @@ body {
   background: url("../images/gravitybackground.jpg") no-repeat center center fixed;
 }
 
+h3 {
+  font-family: 'Ave';
+  font-size: 30px;
+  color: yellow;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Ave';
+  font-size: 20px;
+  word-spacing: 0.5em;
+  color: yellow;
+}
+
 @font-face {
   font-family: 'Cookie_Dough';
   src:url('../fonts/Cookie_Dough.otf') format('opentype');
@@ -9,10 +23,17 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Ave';
+  src:url('../fonts/AveFedan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .gravity {
   text-align: center;
   font-family: 'Cookie_Dough';
-  font-size: 70px;
+  font-size: 60px;
   word-spacing: 1em;
   color: black;
 }
@@ -39,7 +60,7 @@ body {
 
 #good {
   position: absolute;
-  top: 190px;
+  top: 130px;
   left: 20px;
   width: 100px;
   height: 100px;
@@ -47,8 +68,14 @@ body {
 
 #bad {
   position: absolute;
-  top: 330px;
+  top: 270px;
   left: 20px;
   width: 100px;
   height: 100px;
+}
+
+#controls {
+  position: absolute;
+  top: 500px;
+  left: 70px;
 }

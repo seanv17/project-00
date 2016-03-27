@@ -65,12 +65,12 @@ $(document).ready(function() {
       $('.btn').on('click', function() {
         racingHandler();
         $good.css({
-          top: 190,
+          top: 130,
           left: 20,
           position: 'absolute'
         });
         $bad.css({
-          top: 330,
+          top: 270,
           left: 20,
           position: 'absolute'
         });
