@@ -6,7 +6,7 @@
   <!-- set viewport to device width to help make site responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>project-00 Racing Game</title>
+  <title>Gravity Falls: Racing Mabel</title>
 
   <!-- bootstrap css -->
   <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -19,14 +19,23 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
   <script type="text/javascript" src='scripts/app.js'></script>
 
+  <!-- sweetAlert -->
+  <script src="https://cdn.rawgit.com/t4t5/sweetalert/master/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/t4t5/sweetalert/master/dist/sweetalert.css">
+
 </head>
   <body>
-    <h1>Project-00: Racing Game</h1>
-    <div class="row" id="racetrack">
-      <img src="http://www.wiredforwords.com/IMAGES/FlyingBee.gif" id="player1">
-      <img src="http://www.wiredforwords.com/IMAGES/FlyingBee.gif" id="player2">
+    <h1 class="gravity">Gravity Falls</h1><h2 class="gravity">Mabel Racing Game</h2>
+    <div class="container">
+      <div class="row" id="goodTrack">
+        <img src="images/giphy.gif" id="goodGuys">
+      </div>
+      <div class="row" id="badTrack">
+        <img src="images/giphy_2.gif" id="badGuys">
+      </div>
     </div>
 
+    <button type="button" class="btn">Reset</button>
 
 </body>
 </html>

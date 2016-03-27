@@ -1,47 +1,62 @@
-html, body {
-  margin: 0;
-  background-color: gold;
+body {
+  background: url("../images/gravitybackground.jpg") no-repeat center center fixed;
 }
 
-h1 {
+@font-face {
+  font-family: 'Cookie_Dough';
+  src:url('../fonts/Cookie_Dough.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gravity {
   text-align: center;
+  font-family: 'Cookie_Dough';
+  font-size: 70px;
+  word-spacing: 1em;
+  color: black;
 }
 
-.row {
+.btn {
+  font-family: 'Cookie_Dough';
+  font-size: 40px;
+  color: yellow;
   position: fixed;
-  color: white;
-  width: 1400px;
-  height: 200px;
-  border-width: 5px;
-  border-color: black;
-  border-style: solid;
-  left: 20px;
+  text-align: center;
+  top: 80%;
+  left: 39.5%;
+  width: 300px;
+  background-color: green;
 }
 
-#player1 {
-  position: absolute;;
-  top: 20px;
-  left: 20px;
-  width: 40px;
-  height: 40px;
+#goodTrack {
+  position: fixed;
+  width: 1300px;
+  height: 100px;
+  left: 6%;
+  top: 10%;
 }
 
-#player2 {
-  position: absolute;;
-  top: 120px;
-  left: 20px;
-  width: 40px;
-  height: 40px;
+#badTrack {
+  position: fixed;
+  width: 1300px;
+  height: 100px;
+  left: 6%;
+  top: 30%;
 }
 
-#finishLine {
+#goodGuys {
   position: absolute;
-  top: -2.3%;
-  left: 93.3%;
+  top: 190px;
+  left: 20px;
   width: 100px;
-  height: 200px;
-  border-width: 5px;
-  border-color: black;
-  border-style: solid;
-  background-color: white;
+  height: 100px;
+}
+
+#badGuys {
+  position: absolute;
+  top: 190px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
 }
