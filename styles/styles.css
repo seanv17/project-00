@@ -45,7 +45,7 @@ body {
   top: 30%;
 }
 
-#goodGuys {
+#good {
   position: absolute;
   top: 190px;
   left: 20px;
@@ -53,7 +53,7 @@ body {
   height: 100px;
 }
 
-#badGuys {
+#bad {
   position: absolute;
   top: 190px;
   left: 20px;
