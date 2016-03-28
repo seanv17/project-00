@@ -26,7 +26,7 @@ Planned Features
 - Allow customizable keystroke assignment for player
 
 Screenshot
-<img src="http://imgur.com/dw40X3z">
+http://imgur.com/dw40X3z
 
 BitBallon Hosted
 http://fitter-karl-38185.bitballoon.com/
