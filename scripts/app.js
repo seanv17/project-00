@@ -29,7 +29,7 @@ $(document).ready(function() {
     var $good = $('#good');
      var $bad = $('#bad');
 
-  //* call function to initialize game
+  //* Call function to initialize game
   racingHandler();
 
     //* Player handler and check winner handler
@@ -42,7 +42,7 @@ $(document).ready(function() {
                 var $track = $('#track').width();
 
         if ( (e.keyCode === 81) && (goodPosition <  ($track * 0.85)) ) {
-          $good.animate({'left': '+=50px'}, 10);
+          $good.animate({left: '+=50px'}, 10);
         }
 
         else if ( (e.keyCode === 81) && (goodPosition > ($track * 0.85) ) ) {
