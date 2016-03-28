@@ -25,8 +25,6 @@ Planned Features
 - Allow customizable player icon
 - Allow customizable keystroke assignment for player
 
-Screenshot
-http://imgur.com/dw40X3z
+<a href="http://imgur.com/dw40X3z">Game Screenshot</a>
 
-BitBallon Hosted
-http://fitter-karl-38185.bitballoon.com/
+<a href="http://fitter-karl-38185.bitballoon.com/>BitBaloon Hosted</a>
